@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ConfluenceBot", "ConfluenceBot\ConfluenceBot.pyproj", "{FECA6BA0-E7EB-45D2-AD09-516274EE2C33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\build_structure.py = Scripts\build_structure.py
+		Scripts\fetch_pages.py = Scripts\fetch_pages.py
+		Scripts\simulate_migration.py = Scripts\simulate_migration.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{46D040DF-2911-4B82-9A51-2673753F7B20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FECA6BA0-E7EB-45D2-AD09-516274EE2C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECA6BA0-E7EB-45D2-AD09-516274EE2C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E62E1EE1-D4FC-4D4C-BC3C-26F100329737}
+	EndGlobalSection
+EndGlobal
