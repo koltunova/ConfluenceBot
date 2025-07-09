@@ -1,13 +1,14 @@
 import requests
 from .settings import BASE_URL, EMAIL, API_TOKEN, SPACE_KEY
 
+
 def fetch_pages():
     url = f"{BASE_URL}/rest/api/content"
     params = {
         "spaceKey": SPACE_KEY,
         "expand": "title,ancestors",
         "limit": 100,
-        "start": 0
+        "start": 0,
     }
 
     auth = (EMAIL, API_TOKEN)
